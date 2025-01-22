@@ -1,0 +1,50 @@
+This is the spy base. As mentioned before each Spy Training Center (STC) creates "x" spies per hour and this is where they can be used.
+
+Anouther kingdom may be selected from any system (see solar system for sessions) to spy on. To avoid people spying on their own allaince the allaince name is shown and if they are in the same allaince it should be bold in red.
+
+The spies should be able to
+[*] Spy on Kingdom - get the same information as my kingdom page (see my kingdom)
+[*] Spy on Military - Gets information of how many generals are at home and how many hours they are out for. Also includes how many troops are out with
+[*] Spy on Military Training - Get a table showing military training status hour 1 - 1 etc
+[*] Spy on Buildings - Get table showing building construction status hour 1 - 1 etc.
+[*] Spy on research - Shows the % completed on each topic and the amount of points
+[*] Spy on shields - Shows the % shields protection gives
+[*] Steal money - does what it says. each spy can carry 10 units of money
+[*] Arson residence - Destroys x% of residence (config database)
+[*] Blow up power - Destroys x% of power plants (config database)
+
+
+
+Spies here are after all casulties are taken into effect.
+The operation is successful if they have more spies then the enemy. for any of the "Spy on xxxx" missions. 
+
+The operation is successful for any of the others (steal, arson, blow) if they have more spies + 10% than the enemy. 
+
+Each successful mission only x% of spies are killed (config database)
+
+Each failed mission only y% of spies are killed (config database)
+
+The spies also have the option to put shields up. If they place shields on (via a tick box) then spies * "p" power is used (power has to be taken away). This has the effect of increasing the offence spies by p%  (config database)
+
+NOTE: The enemy spy number has to include shields % added on.
+--------------------------
+Ok well now i am editing it so sorry if I accidently contradict myself now
+
+Spy Gains
+Rob x%
+Arson y%
+
+Both must be configurable in database
+
+However
+There is Max Gain per Spy or how much each spy can do these must also be set into the database
+Rob - x2%
+Arson - y2%
+
+Gains are always taken after probe losses are takne into account
+
+Spy casualties
+
+Losses on successful operations are x% of spies sent
+Losses on failed operations are y% of spies sent
+Using shields on probes reduces casualties by 75%(.75)

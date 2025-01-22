@@ -1,0 +1,23 @@
+Every decent place needs shields, in the future anway.
+
+So here we go.
+
+here are 3 things you can dedicate shields to
+[*] Spy shields
+[*] Missile shields
+[*] Military Shields
+
+Each needs power to run... 
+
+On the Shield page they assign power to each thing. This power is used hourly.
+
+The shields max and 
+x%,y% and z% resecivly.
+
+This % is how much they add on to their respective fields.
+
+eg. You have 10000 spies in total. Someone spies on you has 11000. Normally he would get through, but if you have full shields (and say x% = 20%) then you have equivilant of 12000 spies so he fails.
+
+With shields its just chances of each nuke getting through. eg 50% and then there is half a chance the nuke will hit.
+
+Military is the same as spies...

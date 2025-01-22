@@ -1,0 +1,13 @@
+Each Kingdom type should basically have an advantage and disadvantage which equals out etc...
+
+For a kingdom type these advantages are one of:
+
+[*] Power
+[*] Return Times
+[*] Research
+[*] Populaion
+[*] Offense
+[*] Defense
+[*] Income
+
+They all have a +% or -% of something (or zero of course). All of this should be configurable in a planet configuration table

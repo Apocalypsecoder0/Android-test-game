@@ -1,0 +1,21 @@
+This page basically goes hand in hand with everyhing :D.
+
+Here you can research upgrades. In the configuration table there will have to be a "research" column so that units and buildings can be created which can be researched. They also need to say how many research points are needed. So maybe we can do a column which says research and then if its = to 0 then it doesn need to be researched... however if it is larger than 0 then it has to be researched and cant be accessed until it is researched.
+
+So that sorts out the upgradable for units and buildings.
+
+In the military page you can train scientists. Each scientist gives you 1 research point per hour when assigned to a certain topic. The player must assigned each scientist to a topic. 
+
+Then there are 5 other research points which are not upgrades as such they are just boosts.
+They are:
+[*] Population Expansion - increases residence capacity
+[*] Power boost - increases power capacity and speed
+[*] Military Morale - increases offense and defense
+[*] Money Bonus - increases overall money after pop bonus etc.
+[*] Shields - gives an extra page
+
+In the configuraion table these must have a set maximum % that these can be maxed. This % is how much it improves things. So if you had the max for pop at 30% you could only research 30% as a max of them and this would improve residence capaciy 30%...
+
+However there is a catch... the points needed for these 4 (and only these 4) changes... The forumulea is
+
+land^2 * "x" which is the same as (land*land)*"x". The x must be configured in the database.... When the points needed via this formulea is reached they have reached the max %

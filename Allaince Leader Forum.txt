@@ -1,0 +1,9 @@
+To access this the allaince must have x amount of systems. This is posted in the database configuration table again..
+
+Both the Allaince leader and Assistant allaince leader can post.
+
+This is a basic forum with topics and posts... very simple. See the main forum page for more detail. When posting however they show up as
+
+"[ALLAINCE_NAME] AL" and "[ALLAINCE_NAME] AAL"
+
+The mod of this forum is the admin account. They are posted as "Forum Mod" whenever they post and of course can delete edit etc posts...

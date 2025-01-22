@@ -1,0 +1,14 @@
+Income is of course the net income of everything.
+
+All the following are configurable in the database
+Money per mine
+Money per upgradable mine
+money per HOUSED population (as pop pay tax)
+
+Therfore the sum of the following is equal to total income
+
+(Mines * Money per mine)+(Upgraded Mines * Money per upgraded mine)+(housed population*Money per population) = Total Money
+
+This is the total income. However rememember that the research "money Bonus" has to be taken into account as well so it would be 
+
+((TotalMoney/100)*Research%)+TotalMoney=TotalIncome

@@ -1,0 +1,15 @@
+The Discovories page is basically a daily bonus given to the players.
+
+Every day the players are allowed to pick 3 different discovories. They can not pick the same one twice. 
+
+They get the choice out of
+[*] Soilders - % of population (Config Database)
+[*] Scientists - % of population (Config Database)
+[*] Population - % of population (Config Database)
+[*] Land - % of land (Config Database)
+[*] Money - x hours from mines (Config Database)
+[*] Research - x hours research (Config Database)
+[*] Power - % amount of power (Config Database)
+[*] Spies - x hours of spy production (Config Database)
+
+Each discovory has a minimum that they can recieve which is also in the database and is configurable. eg. the minimum spies may be 1000 but x hours only gives me 300 therfore I gain 1000 spies instead of 300.

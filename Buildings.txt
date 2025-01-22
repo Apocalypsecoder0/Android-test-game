@@ -1,0 +1,32 @@
+Buildings is anouther interesting one but is pretty much the same as explore
+
+Again the cost is
+
+Land^0.5 * "x"
+
+Of course the personaliies have to be taken into mind as well so any bonuses...
+
+There has to be buildings for:
+
+[*] Pop to live in
+[*] Mil to live in
+[*] Power to be produced
+[*] Spies to be trained/created
+[*] Money to be created
+[*] Normal military training
+
+So we can almost say it as follows
+[*] Residence - to hold p amount of pop (pop growth discussed later)
+[*] Barracks - to hold m amount of military
+[*] Power Plants - to create w amounts pf power per hour and hold wm per hour
+[*] Spy Training Center - To train s spies per hour
+[*] Core Mine - to produce $ money per hour
+[*] Cadet Training Core - to reduce cost of mil production by "y"
+
+
+Each one of these should have upgrades which can be research accept the CTC (cadet training core). Each one of these buildings should be configruable by name and by the letter appropriate. With the CTC the configuration is different however it is a max % as such. So for example if we set it to 10% then if you had 10% of land or above in CTC then the military costs would be reduced 10% per unit from base prices.
+
+They should be able to destroy buildings, costing "y" each to destroy. They can not destroy any barracks and must leave a least "x" residence available. All config in database
+
+Again the buildings take up to "h" hours to build. This must be configruable, and see explore to see how this works
+ 

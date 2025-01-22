@@ -1,0 +1,107 @@
+This is very complex and confusing and will take a lot of coding all around the game.
+
+There are two modes. Basic and Advanced. The Administrator can give Basic and Advanced to players. Anyone who comes in the top 10 of a round automatically gets Advanced...
+
+Basic:
+
+[*] Spy Operation Summary 
+- Total Missions Launched
+- % of missions Successful
+- % of missions failed
+   
+- Total money stolen
+- Total money lost 
+   
+ 
+[*] Attack Stats  
+- Total Attacks Launched
+- Succesfull attack %
+- Failed attack %
+
+- Total defenses 
+- Succesful defence %
+- Failed defense %
+   
+[*] General Planet Summary
+- Land Gained in Combat
+- Land gained exploring/Discovories
+- Land lost in combat 
+
+- Homeless deaths
+- Military desertions
+ 
+[*] Wonder Contributions 
+- Total money contributed
+- Total power contributed
+- Total population contributed
+
+
+ADVANCED
+
+[*] Spy operation summary
+-- Our Missions
+- Total Missions Launched
+- % succesful
+- % failed
+- Spys per acre
+- Money Stolen
+- Population Kidnaped
+- Buildings destroyed
+
+-- Enemy Missions
+- Spying missions % and number
+- Kidnap missions % and number
+- Buolding Destruction missions % and number
+- Robbing Missions % and number
+- Money Stolen
+- Popluation Kidnapped
+- Buildings Destroyed
+
+[*] Attack Stats
+
+-- Our attacks
+- Total Attacks launched
+- % succesfful
+- % failed
+- largest land grab
+- % succesful assaults
+- % succesful raid
+- % succesfull massacre
+- Average land ratio 
+
+-- Our Defense
+- Total Defenses
+- % succesful
+- % failed
+- Number of attackers smaller than us
+- Number of attackers bashed us  
+- Average land ratio
+
+[*] General Planet Summary
+- Gained in Combat
+- Gained exploring/discovories
+- Lost in Combat
+- Highest Total land
+- Highest Total NW
+- Homeless Deaths
+- Military desertions
+- Defense per acre
+- Offense per acre
+- Netwoth per acre
+- Population per acre
+- Income per acre
+
+[*] Missile missions
+
+- Launched by us
+- % Blocked by enemy shields
+- % Hit enemy
+
+- Launched at us
+- % Blocked by our shields
+- % hits taken
+
+[*] Wonder Contributions 
+- Total money contributed
+- Total power contributed
+- Total population contributed

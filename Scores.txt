@@ -1,0 +1,11 @@
+Very self explanatory
+
+What you have for scores is
+[*]  Highest Networth
+[*]  Highest Land
+[*]  Largest System
+[*]  Solidest System (ie system with highest average NW)
+[*]  Strongest Allaince
+[*]  Soilidest Allaince (allaince with highest average system NW)
+
+Scores should be taken twice a day but of course they can change this by changing cron jobs...

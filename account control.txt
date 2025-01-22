@@ -1,0 +1,14 @@
+If he game has not started yet the kingdom can
+[*] Change kingdom name
+[*] Change kinggdom type
+[*] Change rule name
+[*] Change Personality
+
+However if he/she does this the account must be reset to origional otherwise they can gain advantages of one and use anouther. 
+
+On this page the user must be able to
+[*] Change password (Must confirm password and type old password to verify)
+[*] Reset account
+[*] Delete account - takes 24 hours before it is deleted
+[*] Report a bug
+[*] Report a cheater

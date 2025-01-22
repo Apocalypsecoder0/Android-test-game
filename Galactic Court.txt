@@ -1,0 +1,29 @@
+This is one of the admin pages. Only admins and gamemasters can have access to this. 
+
+This is basically the admin area of the game.
+
+If a bug report is submited or a report of cheating is submitted it must be sent here.
+
+There is also a page dedicated to profanity. In his file ill discuss each one of these. 
+
+PROFANITY
+
+ In messages and the forum all the messages are "scanned" for bad word. We should create a bad word list full of an array or something on a page dedicated to it or something via a database, so that admins can add new bad words to the list easily. What it will do is censor out the bad word with a **** or an image or something so that the user knows that its been censored by the admins. If there is a bad word and its caught by the "scanner" it is "flagged" in the database and a link appears in the PROFANITY link. A link also appears for a "flagged" message when someone clicks the report link on the message or forum.
+
+Once the link has been clicked the admin should be able to decide what to do. They have two choices. Fine the person a % of their current money, or disable them.
+
+BUGS
+
+This is a page where all the bugs are reported. IT is the responsibility of the person running the game to report the bug to us the makers of the game, or fix it themselves. This is just a page like the messages page. When a bug is submitted it is basically an in game message to the admins which can be viewed on the bug page. The messages can be replied to but when they are replied to instead of messaging in game it sends an email to the email they signed up with.
+
+Bug reports are removed every 5 days.
+
+CHEATING
+
+this is a very important part of the admin and as most people do not want to cyphen through logs etc via phpmyadmin we have to sort some sort of method out here. Of course this also has subsections, for example a page where the cheating can be reported to. Any cheating reports are listed just like they are in the Bugs page and also have a reply link which allows the admin to send an email to the email they signed up with. Cheating reports are also removed every 5 days.
+
+There will be an inbuilt multi finder as such. This will however only pick up the obvious factors such as similiar IP address.
+
+There will be a page with a list of the accounts with similiar IP address and passwords and these are logged. IPs are logged every time someone logs in and logs are kept for a week.
+
+In this area you the admin should be able to see the kingdom news of any planet. All they need to do is type in the name of the planet. This will help people check if there is interaction between two planets to prove that there is cheating etc. 

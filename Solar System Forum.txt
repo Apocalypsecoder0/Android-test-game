@@ -1,0 +1,41 @@
+Ok this is the forum and the base, of all the other forums
+
+his is a very simple forum which works on a Topic -> Post sort of method.
+
+Each solar system has its own forums where it can discuss things.
+
+Post a new topic (very simple)
+[*] Topic Name
+[*] Message
+[*] SL can make a topic sticky when posting
+
+but the data
+[*] Origonal poster
+[*] date 
+[*] last poster 
+
+must also be kept.
+
+Then there is the list of topics with links above the post a new topic form ordered by date (and sticky ie sticky goes at top). Once a link has been clicked hey get taken to that topic. The posts are arranged newest at the bottom.
+
+For each post you see
+
+Kingdom Name
+Solar sysem position
+
+then a new column
+
+date posted
+Message
+ruler name
+
+Each time a new message is posted the last updated must changed and number of posts must change.
+
+So on the main forum page you should see
+[*] Topic Title
+[*] Topic Creator
+[*] Number of Posts
+[*] Last poster
+[*] Last updated date time
+
+NOTE: All messages are scanned and seen by galactic court (see galactic court)

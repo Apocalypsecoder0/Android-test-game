@@ -1,0 +1,26 @@
+Here is where the kingdoms can send their explores out and explore land. This is very confusing really. Firsly lets get the costs out of the way.
+
+The formula will be 
+
+"land^0.5 * x"
+
+The "x" will be configurable in a database so that each different owner of the game can change it.
+
+Now to the interesting bit.
+
+You can only explore and be exploring 10% of your land. So lets say I have 500 land I can only explore 50 land. However it is more interesing than that because if i have 50 land already exploring I can not explore any more land (assuming 50 is 10% of my land).
+
+When you explore it should take up to "y" hours to explore your land. The reason I say up to is... well lets do this via an example. If you explore 24 land and it takes "up to" 24 hours to explore. Then it is easy, you explore 1 land per hour. However if you explored 27 instead it is as follows
+
+Hour 1 - 1 land
+Hour 2 - 1 land
+Hour 3 - 1 land
+Hour 5 - 1 land
+Hour 6 - 1 land
+Hour 7 - 1 land
+Hour 8,9,10,11,12,13,14,15,16,17,18,19,20,21 - 1 land
+Hour 22 - 2 Land
+Hour 23 - 2 land
+Hour 24 - 2 land
+
+As you can see 27 land is being explored however the extra 3 land that is gained is not actually seen until the 22nd hour after initially exploring.

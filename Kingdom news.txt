@@ -1,0 +1,26 @@
+Any interaction with Spies, Attacks, Missiles is recorded in the Kingdom news.
+
+Whenever they are spied on it shows 
+
+"Time+Date - XXXXXXXX (X:X) Spied on your YYYYYYYYYY"
+
+or if they destroyed something
+
+"Time+Date - XXXXXXXX (X:X) Destryoed Y of your ZZZZZZZZ's"
+
+If you are attacked it also shows who attacked you how much land, pop, power they gained and how many military casualties they gained.
+
+"Time+Date We were assaulted by XXXXXXXX (X:X) but our defense held firm. Military casualties included yyy Soldiers, zzz Riflemen, cccc Lasermen, vvvv AAVs, bbbbb Starfighters, and pp injured civilians"
+
+If you attack you see how mach land, pop, power you gained, military casualties and when surving troops return.
+
+"Time+Date We assaulted XXXXXXXX (X:X) and conquered yyy land, uuuuuuu money, iiiiii power and ooooo population. Our military casualties included ppppp Starfighters, and our surviving troops will return in a hours. "
+
+If someone missiles you or you missile someone you also see the news... ie you see the news for everything that happens to you.
+
+You also see what you gained in discovories. eg
+
+Discoveries have added xxxxx extra money to our treasury.
+Discoveries have added xxxxx new soldiers to our military.
+
+etc

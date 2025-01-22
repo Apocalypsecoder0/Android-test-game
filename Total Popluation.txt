@@ -1,0 +1,11 @@
+When you build residence you can house so many residence... obviously.
+
+However your military take presidence over your Population. If you barracks are overflowing (ie your miliary do not have enough room in their barracks) Then your military kick your population onto to the streets. That population eventually dies and hence your residence are not full. This military stays in the residence, meaning your population can not live there, unil you have built more barracks to house all your military.
+
+Population growth is a % of your current growth. This is a configruable varialbe which goes in the database.
+
+Population depliation however is harder. You lose x% of your excess population. IE x% of the people on the streets who are not housed die each hour and hence you lose x%. However there is a minimum lose of y population if there is an excess. This is configurable in the database.
+
+Military desertions:
+
+If your military is taking over x% of all your residence buildings then y% of that military (that is sleeping in the residence) will feel guilty and desert and turn back into population.

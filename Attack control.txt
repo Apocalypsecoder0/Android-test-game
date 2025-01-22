@@ -1,0 +1,66 @@
+Here you can choose who to attack and again same rules apply as military intelligence, any system but shows allaince and if its the same allaince, red and bold.
+
+When the play sends out military he can decide how many generals to send out (maximum 4). With each extra general he sends out its 3% bonus.
+for example 1 General = no bonus 4 generals = 9% bonus
+
+The player can choose how much military to send of each offensive unit. he can only send out s% of total units (config database). 
+
+Basically if you have more offense points than the defender does, defense points you win. If the attack is successful then the attacker gains
+[*] L% land
+[*] p% population
+[*] m% money
+[*] w% power
+
+Military loses are s% for succesful attacks f% for failed attacks. For the defense they are ds% and df%. However there are more values as these values change for each attack type so it is more like
+
+Attack 
+- Succesful as%, ms%, rs%
+- Fail af%, mf%, rf%
+Defender
+- Succesful ads%, mds%, rds%
+- Fail adf%, mdf%, rdf%
+
+There are also different types of attacks. Above descrived was the assault which is the main type of attack.
+
+There are 2 other type of attacks
+[*] Massacre - 3 times the offense points is required - a certain percent of land, pop, money and power gained is destroyed. 
+[*] Raid - requires less military. IE send 5% off what is required you get 5% of L% of land... There is a raid limit between l% and h% ef (70% of land and 300% of land)
+
+
+Return times:
+
+For the main return time you have to remember the coords mentioned in solar system. Imagine the coordinates are in a circle so that the closer together the shorter the return time. 
+So if I was in the coordinates 5:5 and someone had the coordinaes 5:5 as well it would be a quick return time. If it is in a different galaxy you add one hour. Using pythagorous the distance between coords is found and then this is added onto a "base" value, x which is in the database giving return time
+
+David Kindly wrote this for us:
+
+<?php
+
+function wrap_distance($ax, $ay, $bx, $by, $gx, $gy) {
+	/*
+		($ax, $ay) = First coordinate pair
+		($bx, $by) = Second coordinate pair
+		($gx, $gy) = Grid size
+	*/
+
+	# Find direct x and y distances (no wrapping)
+	$dx = abs($ax - $bx);
+	$dy = abs($ay - $by);
+
+	# Check if wrap distance is smaller
+	$dx = Min($gx - $dx, $dx);
+	$dy = Min($gy - $dy, $dy);
+
+	# Calculate hypotenuse length
+	return sqrt(pow($dx, 2) + pow($dy, 2));
+}
+
+?>
+
+
+The generals split up in return times... so if there is a return time of 9 on a target 
+the first general returns after 2 hours, the second after 4, the third after 7 and the fourth after the full 9. They are split evenly as such between the return time etc.
+
+Casualties
+
+I thought I would address casualties...

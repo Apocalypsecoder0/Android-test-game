@@ -1,0 +1,17 @@
+Solar system news is colour coded again it has a key. 
+
+Yellow - Assault on our system
+Blue - Attack by our system
+Red - Missile on our system
+Purple - Missile by our system
+Green - Action by system eg. Joined x allaince. The kingdom x appeared in our sysem
+
+This shows much less detail. EG
+
+DATE+TIME Troops from XXXXXX (X:X) assaulted YYYY (Y:Y) and conquered LLL land. 
+DAET+TIME Troops from YYYYY (Y:Y) assaulted XXXXXX (X:X) and conquered LLL land. 
+DATE+TIME A BLEH missile launched from YYYYY (Y:Y) hit XXXXXXX (X:X) and destroyed no land, killed PPPP population, and there were no military casualties. 
+DATE+TIME The kingdom XXXXXX and all its inhabitants have been totally destroyed in a massive cataclysm. 
+DATE+TIME The Kingdom XXXX has appeared in our solar system
+DATE+TIME Our Solar System has joined AAAAAAA allaince
+DATE+TIME Our Solar System has built the WWWWWW wonder

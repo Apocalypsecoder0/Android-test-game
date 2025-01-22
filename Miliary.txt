@@ -1,0 +1,29 @@
+Military is a big page and an important one, after all this is a war game...
+All military units are trained in the same time. All drafting and training takes up to "x" hours to do. Again configurable in the database 
+
+
+
+The first thing on the page is the ability to train soilders.
+The cost for this is land*"x" which is again configurable in the database. You can only ever draft 10% of population at one time into soilders or scientists.
+
+ie maximum you can draft of population is 10% = soilders drafting + scientists. IE. 10% maximum for both soilders and scientists added together. And again as in explore this includes the current ones drafting.
+
+Scientists is basically the same as soilders just the cost is more expensive. This is 
+land*"y" which is again configurable in the database.
+
+Now we get onto drafting elite units. Elite units are drafted from soilders. IE you have to first train them into soilders before they become elite units....
+Each unit has a differnet cost.
+
+What you should see is 
+[*] Unti name
+[*] Amount Existing
+[*] Amount Training
+[*] Cost
+[*] Amount you can train
+
+Each unit has a default cost and then the amount of CTC (see buildings) % is taken away from that. 
+
+All units must be able to bne configured in the database (apart from soilders). The name, base cost, defense, and offense for each unit but be able to be changed. The upgrades must also be sorted (see research) if the upgrade is not researched it does not show up and can not be built.
+
+You must also be able to decommision units... However this costs "x" per unit which is set in database and they can only disband "x%" of their defense also in database
+

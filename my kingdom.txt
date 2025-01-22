@@ -1,0 +1,34 @@
+This is basically the general informaion page. This is the first page they see when they are logged in. 
+
+On this page they see their status which can look as follows. It should go in a table and will change as things are changed. Of course all military types should be configurable including names....
+
+/*-----------------------------------------------------------------------------------------
+
+
+The Kingdom of xxxxxxxx in Solar System (x:x) at TIME on DATE 
+
+Ruler Name: 
+Planet Type: 
+Personality: 
+Land: 
+Networth: 
+Money: 
+Population:
+Power: 
+
+Soldiers: 
+Scientists: 
+Infantrymen: 
+Riflemen: 
+AAVs: 
+ 
+
+/*-----------------------------------------------------------------------------------------
+
+Then below this there are the announcments from certain people:
+
+[*] System Leader
+[*] Allaince Leader
+[*] Gamemaster
+
+all of them can be changed by each individual

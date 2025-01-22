@@ -1,0 +1,31 @@
+At the top of this page it says somehing like
+
+"Welcome to round X "RoundName"
+
+Then below that it gives important variables 
+[*] Number Of Galaxies
+[*] Sysems Per Galaxy
+[*] Planets Per system
+[*] Group Size
+[*] Allaince Size Limit
+
+all of that is in the database in the configruation table
+
+Then below this there will be login and planet details
+
+[*]Username
+[*]Password and Confirm
+[*]Email and Confirm
+[*]Kingdom Name
+[*]Ruler Name and Title (eg. Sir, Lord, President etc)
+[*]Kingdom Type (See file for kingdom type type file in other)
+[*]Personality Type (see file for personaliy type file in other)
+[*]In Group? Random Signup? (see group type file in other)
+
+[*]Tick box for (agree to rules)
+[*]Tick box for (only account)
+
+
+If their email is recognised with a group they are put in the system their group is assigned... if their email is not and it is random signup then the system is picked randomly....
+
+Again the systems have to fill up equally... this means if 1:1 has 2 kingdoms and 1:2 only has 1 then the system goes into 1:2 (assuming a 2 system universe)

@@ -1,0 +1,15 @@
+Neworth is stored in the database and is only ever calculated when it changes. This should help speed the game up as if its calculaetd every time its viewed its much more often that if its whenever it chaanges.
+
+Networth is calculated by many variables which must be put into a database as configurable so hey can be changed
+
+These are:
+
+Land - 'L' NW per land
+Building (including in Construction) - 'B' NW per building
+All military units have a different NW so along with configuration for offense and defense and housing space, the NW can also be calcualted
+Scientist - 'S' NW per scientist
+Population - 'P' NW per population
+Money (500) - 'M' NW per 500 money
+Spies (1000) - 'SP' NW per 1000 spies
+Power - 'Pw' NW per 10000 power
+Missiles - 'Mi' NW per missile

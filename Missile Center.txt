@@ -1,0 +1,11 @@
+Here different nukes can be built and created. Everything needs to be configured for these
+
+For this following has to be configurable:
+[*]Name
+[*]Damage in % to land, pop, military
+[*]Max damage for land
+[*]Cost in Money
+[*]Cost in Power
+[*]Time to build in hours
+
+You can only ever have one of each type of missile and can produce one if you already have one. 

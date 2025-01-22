@@ -1,0 +1,31 @@
+This bage is basically the browsing part of the game.
+
+As you know the game is based on the structure
+
+Universe -> Galaxies -> Solar systems -> Kingdoms
+
+Well this is the page where you can browse the universe. The system and galaxy should be sessions so that if you were last looking at 2:3 for example next time you go to the solar Sysem page or Probe or missile page the system 2:3 is being displayed. This means there should also be a link to "My System" which takes you back to your system.
+
+You may input the galaxy and solar sysem number in to boxes and then press submit. Once you have it will reload the page and take you to that system.
+
+When viewing a system you can see
+[*] Solar System Name
+[*] Allaince
+[*] Solar System Anouncments
+[*] Solar system Treaties
+
+You can also see the kingdoms situation in the system and some of their status such as
+[*]Planet name
+[*]Status
+[*]Coords
+[*]Kingdom Type
+[*]Amount of Land
+[*]Networth
+
+They are also colour coded so you can tell who the leader, vice leader, is and who is in newbie mode, disabled or on vacation.
+
+You should be able to click on the name of each planet and then when you click there is a drop down box of 4 options
+[*] Message
+[*] Attack
+[*] Probe
+[*] Missile

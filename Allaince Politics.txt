@@ -1,0 +1,18 @@
+This is basically the allaince page where everyhing happened and you can check general stats.
+
+If the person is system leader they see a Join allaince box. This has 
+[*] Allaince name
+[*] Allaince password
+There are limits on number of systems and these have to be taken into account so you cant join if the allaince is full. You can also NOT be in more than one system
+
+
+Anyone can have a create allaince box which has the same fields as join.
+
+Then there is an allaince information box, where information about any allaince can be created. his is in the form of a drop down box listing all the allainces with more than one system in them. When an allaince is selected for information they get transfered to a page corrosponding to that allaince. (see Allaince Information).
+
+If they are allaince leader they get 2 links. The Assistant Allaince Leader can see these as well. More detail in each page
+
+[*] Allaince Control Center
+[*] Allaince Leader Forum
+
+See the corrosponding pages

@@ -1,0 +1,7 @@
+This is only enabled when signups are closed for a new round. So should be enabled in the admin panel.
+
+All that the user has to give is the email address he will use to sign up to the game with... simple.
+
+He is then sent a random number code 5-10 numbers long. Must be random and this is the unique identifier for the group.
+
+The group is also assigned a system but the user is not shown this. The groups should be spread out as evenly as possible, ie 1 per system and then if there are more... 2 per system etc

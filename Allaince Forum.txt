@@ -1,0 +1,7 @@
+This is the forum for the systems in an allaince to talk in. You can only talk to people in your allaince and only see the things posted in your allaince forum.
+
+The Allaince leader should be able to see a tick box whenever he posts which says "Post as AL". If this is ticked then the post shows "[ALLAINCE_NAME] leader".
+
+The Moderators of the forum (Assistant leader, leader and war leader) should all be able to see a tick box which says sticky. This makes the topic stick to the top of the forum.
+
+For the rest of the information about the forum see solar system forum

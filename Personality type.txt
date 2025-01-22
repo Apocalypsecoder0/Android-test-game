@@ -1,0 +1,11 @@
+All of these personalities are bonuses of some sort but it is much harder to configure. 
+I am still not sure whether to hard code these in or whether to make them configurable by the database.
+
+These are things like
+
+[*] Troops return 1 hour quicker
+[*] 1% reduction in casualties
+[*] 5% extra protection from spies
+[*] 5% extra chance spies succeed
+[*] Cheaper building costs (10% reduced)
+[*] higher chance of random events (more often random events)

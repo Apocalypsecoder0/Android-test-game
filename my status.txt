@@ -1,0 +1,10 @@
+This page is basically the growth page.
+
+This page shows
+[*] Income
+[*] Population Change
+[*] Excess/Needed Power
+[*] Number of Victories
+[*] Number of Defeats
+
+All very simple on what it shows but ay be a bit harder to make

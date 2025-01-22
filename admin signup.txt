@@ -1,0 +1,9 @@
+See Signup for main features.
+
+Differences:
+
+[*]To get here they have to type a password and username (also image verification so brute force is impossible)
+[*]You can signup here even if singups are closed
+[*]It creates an account in a system that is impossible ie. 29:29 This system must be random but must be same for every admin. (ie different sysem every game)
+[*]There are no group options as they are in admin group
+

@@ -1,0 +1,15 @@
+see allaince politics for how to get to this page
+
+Information they see:
+
+[*] Number of Solar Systems
+[*] Average size of Solar Systems
+[*] Total Size of allaince
+[*] Communication officer (name and system)
+
+There is then a seperate box for 
+[*] At War With 
+[*] MDP (Mutual Defense Pact) With
+[*] NAP (Non-Aggression Pact) With
+
+Then a seperate box (table) again listing the systems and system name.

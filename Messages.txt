@@ -1,0 +1,15 @@
+This is basically the inbox of the kingdom. It lists all the messages oldest to newest.
+
+Next to each message there is a link for report and reply and a tick box for delete.
+
+At the bottom there is delete checked messages to delete the ticked messages and there is also a delete all messages button.
+
+At the top above the list of messages there is a link to sent messages. Of course this is the same as the normal inbox but you have no links to it, you can not delete, report or of course reply to them ;)
+
+When the report button is pressed the message is inserted into a database... well its not inserted its just flagged for checking.
+
+When the reply button is pressed you are sent to the messages page with the system of the play you are replying to filled in and also he kingdom you are sending to filled in. 
+
+There is also the text that they send you in [QUOTE][/QUOTE] tags which will be translated into an <hr> or a new table or soemthing
+
+Messages and Sent messages are deleted once they are 3 days old.

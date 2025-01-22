@@ -1,0 +1,7 @@
+This is the page where people can join groups. Again this is only to be opened while the creating groups is open. So again can be enabled via something in the admin area.
+
+What they must input is
+[*] Group Code
+[*] Email they will signup with
+
+Then if the group is not full (remember there are restrictions on group sizes) they are added. Once the group is full they can no longer be added, and obviously if the group doesnt exist then they cant be added :D

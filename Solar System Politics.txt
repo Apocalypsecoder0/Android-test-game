@@ -1,0 +1,22 @@
+This page is where the system leader is picked and where the system leader has his control.
+
+Anyone can vote. At the top of the page is a drop down box with a list of all the kingdoms in the system. This is where each player votes for his player.
+
+Below that is a list in a table of all the kingdoms. This shows
+[*] Kingdom name
+[*] Who the kingdom is voting for
+[*] How many votes that kingdom has
+[*] Status
+
+If they are Solar System Leader (SL) or Vice Solar System Leader (VSL) It will show the respective abreviation in the status column.
+
+The solar system leader also sees a column next to status which says job. In this column it has seperate links
+[*] VSL (Vice System Leader) - This person is the Moderator of the forum and vice leader
+
+WE may add more jobs later but VSL is for all. When clicked i assigns that person the job.
+
+The Solar system leader can also see and changed
+[*] Solar System Name - self explanatory. This shows up in scores and when people browse solar sysetms
+[*] Treaties - this is basically some text.
+[*] Announcments - Also basically some text.
+

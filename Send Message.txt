@@ -1,0 +1,7 @@
+Here players must be able to send messages to other players. They can browse systems and then select the kingdom they want to send to. They just need to write a message and then send it. They must be limited to 5000 characters.
+
+They can then send he message.
+
+A system leader has an option to send message to everyone in his solar system.
+
+An alliance leader has an option to send a message to every Solar System leader in his allaince
