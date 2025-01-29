@@ -1,5 +1,5 @@
-Before the game starts the groups must be created. There is a page where groups can be created, and then a page where groups can be joined.
+Before the game starts, groups must be created. There is a dedicated page for creating groups and another for joining them.
 
-A Group basically allows you to join the same system with your friends. But there are limits to stop to many powerful systems and allainces. 
+A group allows players to join the same system with their friends. However, there are limitations to prevent the formation of overly powerful systems and alliances.
 
-Once game signups begin Group creation and signups must stop. If we dont do this the reserved places for groups may be taken in or may be left empty making it unfair for one system
+Once game signups begin, group creation and signups must cease. This ensures that reserved spots for groups are not occupied or left vacant, maintaining fairness across systems.

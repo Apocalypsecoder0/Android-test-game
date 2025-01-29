@@ -1,29 +1,29 @@
-This is the center of control for the allaince leader. This is his base where he can control the allaince. The Assitant allaince leader can also see certain aspects. Each will be mentioned
+This is the center of control for the alliance leader. This is their base where they can control the alliance. The Assistant alliance leader can also see certain aspects. Each will be mentioned.
 
-The first thing is "job" assignment. Only the AL can see this.
+The first feature is "job" assignment. Only the Alliance Leader (AL) can see this.
 
-There is a pull down box with all the systems in the allaince listed in.
-Then below that there is anouther drop down box with all the kingdoms in each respective system in. Then there are 3 buttons
+There is a dropdown box with all the systems in the alliance listed.
+Below that, there is another dropdown box with all the kingdoms in each respective system. Then there are three buttons:
 
 [*] Assign as Assistant Leader
-[*] Assign as war leader
+[*] Assign as War Leader
 [*] Assign as Communication Officer
 
-All of these do just as they say. And give that kingdom the respective role.
+All of these buttons assign the respective role to the selected kingdom.
 
 
-The next option is to remove/kick a system out of the allaince. This is a table with the system name in and coordinates, and also the total system networth and the position they lie in the scores.
+The next option is to remove or kick a system out of the alliance. This is presented in a table with the system name, coordinates, total system net worth, and their position in the scores.
 
-Next to each system is a tick box titled boot. Once ticked and the form is submitted that system is booted from the allaince.
+Next to each system is a checkbox titled "Boot." Once ticked and the form is submitted, that system is removed from the alliance.
 
-The next option is simple and easy, the change password for the allaince. Self explanatory and only the allaince leader can access it. They will need to type the old password and then the new and confirm the new password before its changed.
+The next option is to change the password for the alliance. This is self-explanatory and only accessible by the alliance leader. They will need to type the old password, then the new password, and confirm the new password before it is changed.
 
-Next option is delete the allaince. The button must be red and they must confirm the submition by typing in the allaince password before submitting the form. Then a pop up JS box asks them if they want to delete. Only accessable by the allaince leader.
+The next option is to delete the alliance. The button must be red, and they must confirm the submission by typing in the alliance password before submitting the form. Then a pop-up JavaScript box asks them if they want to delete. This is only accessible by the alliance leader.
 
-Next option is available for AL only and it is to transfer the allaince leadership. Again the AL has to confirm this by typing in the current allaince password.
+The next option is available for the AL only, and it is to transfer the alliance leadership. Again, the AL has to confirm this by typing in the current alliance password.
 
-Next option is a list of allainces. All the other allainces are listed in a drop down box. If the allainces are at war with each other then there is a * by the allaince's name that they are at war with. There must be a red button and a green button. The red button must say Declare War and, yup the green button must say Offer Peace
+The next option is a list of alliances. All the other alliances are listed in a dropdown box. If the alliances are at war with each other, there is an asterisk (*) by the alliance's name that they are at war with. There must be a red button labeled "Declare War" and a green button labeled "Offer Peace."
 
-Next option both the Allaince leader and the Assistant can use. It is View solar system news. There is a drop down box and it has a list of all the solar systems in their allaince. It allows them to view the system news of that solar system.
+The next option, which both the Alliance leader and the Assistant can use, is to view solar system news. There is a dropdown box with a list of all the solar systems in their alliance. It allows them to view the system news of that solar system.
 
-Next option both allaince leader and the assistant can use. It is a ban from posting in allaince forums thread. It bans a username from posting in the forums for x hours. There is a drop down list of the solar systes and again a drop down box of the kingdoms. And then the amount of time in hours can be selected to ban them for. There will be a max of 72 hours. There is also an unban button
+The next option, which both the alliance leader and the assistant can use, is to ban a user from posting in alliance forum threads. It bans a username from posting in the forums for a specified number of hours. There is a dropdown list of the solar systems and another dropdown box of the kingdoms. The duration of the ban can be selected, with a maximum of 72 hours. There is also an unban button.

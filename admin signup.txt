@@ -1,9 +1,13 @@
-See Signup for main features.
+Admin Signup Process:
 
-Differences:
+1. **Secure Signup**:
+   - Admins must enter a valid username and password.
+   - Image verification is required to prevent brute force attacks.
 
-[*]To get here they have to type a password and username (also image verification so brute force is impossible)
-[*]You can signup here even if singups are closed
-[*]It creates an account in a system that is impossible ie. 29:29 This system must be random but must be same for every admin. (ie different sysem every game)
-[*]There are no group options as they are in admin group
+2. **Account Creation**:
+   - Admins can create accounts even when regular signups are closed.
+   - Accounts are created in a unique system (e.g., 29:29), which is randomly assigned but consistent for all admins in a game session.
 
+3. **System Assignment**:
+   - The system assigned to admins is different for each game session but remains the same for all admins within that session.
+   - Admins do not have group options as they are automatically part of the admin group.

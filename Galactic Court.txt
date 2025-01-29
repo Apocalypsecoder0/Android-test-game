@@ -26,4 +26,4 @@ There will be an inbuilt multi finder as such. This will however only pick up th
 
 There will be a page with a list of the accounts with similiar IP address and passwords and these are logged. IPs are logged every time someone logs in and logs are kept for a week.
 
-In this area you the admin should be able to see the kingdom news of any planet. All they need to do is type in the name of the planet. This will help people check if there is interaction between two planets to prove that there is cheating etc. 
+In this area you the admin should be able to see the kingdom news of any planet. All they need to do is type in the name of the planet. This will help people check if there is interaction between two planets to prove that there is cheating etc.
