@@ -3,6 +3,8 @@ package com.apocalypsecoder0.gameengine;
 public class GameEngine {
 
     private boolean isRunning;
+    private UniverseGenerator universeGenerator;
+    private GameGUI gameGUI;
 
     public GameEngine() {
         this.isRunning = false;
@@ -13,7 +15,9 @@ public class GameEngine {
      */
     public void initialize() {
         // Load resources, initialize game objects, etc.
-        System.out.println("Game initialized.");
+        universeGenerator = new UniverseGenerator(System.currentTimeMillis());
+        gameGUI = new GameGUI();
+        System.out.println("Game initialized with Universe and GUI.");
     }
 
     /**
@@ -38,6 +42,7 @@ public class GameEngine {
     public void run() {
         this.isRunning = true;
         initialize();
+        gameGUI.main(new String[]{}); // Launch the GUI
 
         while (isRunning) {
             update();
