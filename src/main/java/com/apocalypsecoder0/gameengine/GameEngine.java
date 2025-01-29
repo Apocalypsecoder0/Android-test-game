@@ -1,12 +1,16 @@
 package com.apocalypsecoder0.gameengine;
 
+import java.util.logging.Logger;
+
 public class GameEngine {
 
+    private static final Logger logger = Logger.getLogger(GameEngine.class.getName());
     private boolean isRunning;
     private UniverseGenerator universeGenerator;
     private GameGUI gameGUI;
 
     public GameEngine() {
+        logger.info("Stopping the game loop...");
         this.isRunning = false;
     }
 
@@ -15,9 +19,10 @@ public class GameEngine {
      */
     public void initialize() {
         // Load resources, initialize game objects, etc.
+        logger.info("Initializing game components...");
         universeGenerator = new UniverseGenerator(System.currentTimeMillis());
         gameGUI = new GameGUI();
-        System.out.println("Game initialized with Universe and GUI.");
+        logger.info("Game initialized with Universe and GUI.");
     }
 
     /**
@@ -25,7 +30,8 @@ public class GameEngine {
      */
     public void update() {
         // Update game logic, handle user input, etc.
-        System.out.println("Game state updated.");
+        logger.fine("Updating game state...");
+        logger.info("Game state updated.");
     }
 
     /**
@@ -33,18 +39,21 @@ public class GameEngine {
      */
     public void render() {
         // Draw the game state to the screen.
-        System.out.println("Game state rendered.");
+        logger.fine("Rendering game state...");
+        logger.info("Game state rendered.");
     }
 
     /**
      * The main game loop. Continuously updates and renders the game state.
      */
     public void run() {
+        logger.info("Starting the game loop...");
         this.isRunning = true;
         initialize();
         gameGUI.main(new String[]{}); // Launch the GUI
 
         while (isRunning) {
+            logger.fine("Running game loop iteration...");
             update();
             render();
 
@@ -52,7 +61,7 @@ public class GameEngine {
             try {
                 Thread.sleep(16); // Approximately 60 frames per second
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                logger.severe("Game loop interrupted: " + e.getMessage());
             }
         }
     }
@@ -65,6 +74,7 @@ public class GameEngine {
     }
 
     public static void main(String[] args) {
+        logger.info("GameEngine starting...");
         GameEngine gameEngine = new GameEngine();
         gameEngine.run();
     }
