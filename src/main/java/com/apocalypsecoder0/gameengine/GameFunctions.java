@@ -78,7 +78,7 @@ public class GameFunctions {
      */
     public void sendFleet(String target, String fleetComposition) {
         System.out.println("Sending fleet to " + target + " with composition: " + fleetComposition);
-        // Logic for sending fleet can be added here.
+        // Implement OGame-like fleet sending logic here.
     }
 
     /**
@@ -89,7 +89,7 @@ public class GameFunctions {
      */
     public void collectResources(String resourceType, int amount) {
         System.out.println("Collecting " + amount + " of " + resourceType);
-        // Logic for collecting resources can be added here.
+        // Implement OGame-like resource collection logic here.
     }
 
     /**
@@ -99,6 +99,6 @@ public class GameFunctions {
      */
     public void startResearch(String researchType) {
         System.out.println("Starting research on " + researchType);
-        // Logic for starting research can be added here.
+        // Implement OGame-like research initiation logic here.
     }
 }

@@ -26,7 +26,7 @@ public class GameGUI {
         JPanel topBar = new JPanel();
         topBar.setLayout(new FlowLayout(FlowLayout.LEFT));
         JLabel usernameLabel = new JLabel("Username: Player1");
-        JLabel resourcesLabel = new JLabel("Resources: 1000 Metal, 500 Crystal");
+        JLabel resourcesLabel = new JLabel("Resources: 1000 Metal, 500 Crystal, 200 Deuterium");
         JLabel notificationsLabel = new JLabel("Notifications: 0");
 
         topBar.add(usernameLabel);
@@ -42,11 +42,17 @@ public class GameGUI {
         JButton resourcesButton = new JButton("Resources");
         JButton fleetButton = new JButton("Fleet");
         JButton researchButton = new JButton("Research");
+        JButton galaxyButton = new JButton("Galaxy");
+        JButton empireButton = new JButton("Empire");
+        JButton allianceButton = new JButton("Alliance");
 
         leftSidebar.add(overviewButton);
         leftSidebar.add(resourcesButton);
         leftSidebar.add(fleetButton);
         leftSidebar.add(researchButton);
+        leftSidebar.add(galaxyButton);
+        leftSidebar.add(empireButton);
+        leftSidebar.add(allianceButton);
 
         frame.add(leftSidebar, BorderLayout.WEST);
 
@@ -79,11 +85,11 @@ public class GameGUI {
                 List<UniverseGenerator.Galaxy> galaxies = universeGenerator.getGalaxies();
                 StringBuilder sb = new StringBuilder();
                 for (UniverseGenerator.Galaxy galaxy : galaxies) {
-                    sb.append("Galaxy: ").append(galaxy.getName()).append("\\\n");
+                    sb.append("Galaxy: ").append(galaxy.getName()).append("\\\\n");
                     for (UniverseGenerator.Planet planet : galaxy.getPlanets()) {
                         sb.append("  Planet: ").append(planet.getName())
                           .append(", Size: ").append(planet.getSize())
-                          .append(", Type: ").append(planet.getType()).append("\\\n");
+                          .append(", Type: ").append(planet.getType()).append("\\\\n");
                     }
                 }
                 displayArea.setText(sb.toString());

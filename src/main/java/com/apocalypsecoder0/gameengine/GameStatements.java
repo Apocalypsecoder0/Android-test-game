@@ -27,17 +27,20 @@ public class GameStatements {
     public static final String RESOURCE_METAL = "Metal";
     public static final String RESOURCE_CRYSTAL = "Crystal";
     public static final String RESOURCE_DEUTERIUM = "Deuterium";
-
+    public static final String RESOURCE_DARK_MATTER = "Dark Matter";
+    public static final String RESOURCE_ANTIMATTER = "Antimatter";
     // Fleet actions
     public static final String FLEET_ACTION_ATTACK = "Attack";
     public static final String FLEET_ACTION_DEFEND = "Defend";
     public static final String FLEET_ACTION_TRANSPORT = "Transport";
-
+    public static final String FLEET_ACTION_EXPLORE = "Explore";
+    public static final String FLEET_ACTION_COLONIZE = "Colonize";
     // Research categories
     public static final String RESEARCH_ENERGY = "Energy";
     public static final String RESEARCH_LASER = "Laser";
     public static final String RESEARCH_PLASMA = "Plasma";
-
+    public static final String RESEARCH_HYPERSPACE = "Hyperspace";
+    public static final String RESEARCH_ASTROPHYSICS = "Astrophysics";
     // Game state constants
     public static final String GAME_STATE_INITIALIZING = "INITIALIZING";
     public static final String GAME_STATE_RUNNING = "RUNNING";
