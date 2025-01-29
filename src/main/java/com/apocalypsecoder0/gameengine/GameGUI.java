@@ -22,6 +22,35 @@ public class GameGUI {
         frame.setSize(800, 600);
         frame.setLayout(new BorderLayout());
 
+        // Top Bar
+        JPanel topBar = new JPanel();
+        topBar.setLayout(new FlowLayout(FlowLayout.LEFT));
+        JLabel usernameLabel = new JLabel("Username: Player1");
+        JLabel resourcesLabel = new JLabel("Resources: 1000 Metal, 500 Crystal");
+        JLabel notificationsLabel = new JLabel("Notifications: 0");
+
+        topBar.add(usernameLabel);
+        topBar.add(resourcesLabel);
+        topBar.add(notificationsLabel);
+
+        frame.add(topBar, BorderLayout.NORTH);
+
+        // Left Sidebar
+        JPanel leftSidebar = new JPanel();
+        leftSidebar.setLayout(new BoxLayout(leftSidebar, BoxLayout.Y_AXIS));
+        JButton overviewButton = new JButton("Overview");
+        JButton resourcesButton = new JButton("Resources");
+        JButton fleetButton = new JButton("Fleet");
+        JButton researchButton = new JButton("Research");
+
+        leftSidebar.add(overviewButton);
+        leftSidebar.add(resourcesButton);
+        leftSidebar.add(fleetButton);
+        leftSidebar.add(researchButton);
+
+        frame.add(leftSidebar, BorderLayout.WEST);
+
+        // Control Panel (moved to center)
         JPanel controlPanel = new JPanel();
         JButton generateButton = new JButton("Generate Universe");
         JButton displayButton = new JButton("Display Galaxies");
@@ -29,7 +58,7 @@ public class GameGUI {
         controlPanel.add(generateButton);
         controlPanel.add(displayButton);
 
-        frame.add(controlPanel, BorderLayout.NORTH);
+        frame.add(controlPanel, BorderLayout.CENTER);
 
         JTextArea displayArea = new JTextArea();
         displayArea.setEditable(false);
@@ -50,11 +79,11 @@ public class GameGUI {
                 List<UniverseGenerator.Galaxy> galaxies = universeGenerator.getGalaxies();
                 StringBuilder sb = new StringBuilder();
                 for (UniverseGenerator.Galaxy galaxy : galaxies) {
-                    sb.append("Galaxy: ").append(galaxy.getName()).append("\\n");
+                    sb.append("Galaxy: ").append(galaxy.getName()).append("\\\n");
                     for (UniverseGenerator.Planet planet : galaxy.getPlanets()) {
                         sb.append("  Planet: ").append(planet.getName())
                           .append(", Size: ").append(planet.getSize())
-                          .append(", Type: ").append(planet.getType()).append("\\n");
+                          .append(", Type: ").append(planet.getType()).append("\\\n");
                     }
                 }
                 displayArea.setText(sb.toString());

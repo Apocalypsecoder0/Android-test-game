@@ -23,6 +23,21 @@ public class GameStatements {
     public static final String TEXTURE_PATH = "assets/textures/"; // Path to texture assets
     public static final String SOUND_PATH = "assets/sounds/"; // Path to sound assets
 
+    // Resource types
+    public static final String RESOURCE_METAL = "Metal";
+    public static final String RESOURCE_CRYSTAL = "Crystal";
+    public static final String RESOURCE_DEUTERIUM = "Deuterium";
+
+    // Fleet actions
+    public static final String FLEET_ACTION_ATTACK = "Attack";
+    public static final String FLEET_ACTION_DEFEND = "Defend";
+    public static final String FLEET_ACTION_TRANSPORT = "Transport";
+
+    // Research categories
+    public static final String RESEARCH_ENERGY = "Energy";
+    public static final String RESEARCH_LASER = "Laser";
+    public static final String RESEARCH_PLASMA = "Plasma";
+
     // Game state constants
     public static final String GAME_STATE_INITIALIZING = "INITIALIZING";
     public static final String GAME_STATE_RUNNING = "RUNNING";

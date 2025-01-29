@@ -69,4 +69,36 @@ public class GameFunctions {
         System.out.println("Transitioning from " + currentState + " to " + nextState + ".");
         // Logic for transitioning between states can be added here.
     }
+
+    /**
+     * Sends a fleet to a specified target.
+     * 
+     * @param target The target location for the fleet.
+     * @param fleetComposition The composition of the fleet.
+     */
+    public void sendFleet(String target, String fleetComposition) {
+        System.out.println("Sending fleet to " + target + " with composition: " + fleetComposition);
+        // Logic for sending fleet can be added here.
+    }
+
+    /**
+     * Collects specified resources.
+     * 
+     * @param resourceType The type of resource to collect.
+     * @param amount The amount of resource to collect.
+     */
+    public void collectResources(String resourceType, int amount) {
+        System.out.println("Collecting " + amount + " of " + resourceType);
+        // Logic for collecting resources can be added here.
+    }
+
+    /**
+     * Starts a research project.
+     * 
+     * @param researchType The type of research to start.
+     */
+    public void startResearch(String researchType) {
+        System.out.println("Starting research on " + researchType);
+        // Logic for starting research can be added here.
+    }
 }
